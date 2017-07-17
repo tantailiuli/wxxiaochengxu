@@ -1,0 +1,9 @@
+<!--index.wxml-->
+<include src="../topsearch/topsearch.wxml"/>
+<view class="hotrecommend">
+  <view class="left">
+    <image src="../../images/hotrecommend.png"></image>
+    <text>人气推荐</text>
+  </view>
+  <text class="right">明星商品 为您精选</text>
+</view>

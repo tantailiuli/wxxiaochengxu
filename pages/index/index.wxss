@@ -1,0 +1,29 @@
+/**index.wxss**/
+@import "../topsearch/topsearch.wxss";
+.hotrecommend{
+  height: 86rpx;
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hotrecommend .left{
+  width: 222rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hotrecommend .left image{
+  width: 47rpx;
+  height: 47rpx;
+}
+.hotrecommend .left text{
+  font-size: 25rpx;
+}
+.hotrecommend .right{
+  width: 261rpx;
+  font-size: 25rpx;
+  color: #666;
+  text-align: center;
+}

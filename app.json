@@ -1,0 +1,43 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/topsearch/topsearch"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#0a96da",
+    "navigationBarTitleText": "美的官方商城",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#0a96da"
+  },
+  "tabBar": {
+    "backgroundColor": "#fff",
+    "color": "#666",
+    "selectedColor": "#0a96da",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/tabbar01.png",
+        "selectedIconPath": "images/tabbarsel01.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "iconPath": "images/tabbar02.png",
+        "selectedIconPath": "images/tabbarsel02.png",
+        "text": "商品分类"
+      },
+      {
+        "pagePath": "pages/topsearch/topsearch",
+        "iconPath": "images/tabbar03.png",
+        "selectedIconPath": "images/tabbarsel03.png",
+        "text": "个人中心"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  }
+}

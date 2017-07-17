@@ -1,0 +1,7 @@
+<!--topsearch.wxml-->
+<view class="searchbox">
+  <view class="search">
+    <icon type="search" size="14" />
+    <input type="text" class="searchinput" placeholder="输入您想要的商品" />
+  </view>
+</view>
